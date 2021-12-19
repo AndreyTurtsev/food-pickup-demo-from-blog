@@ -19,7 +19,6 @@ digression sorry_wont_call
         set $status=digression.sorry_wont_call.status;
         set $serviceStatus=digression.sorry_wont_call.serviceStatus;
         set $callBackDetails = #message.originalText;
-        #disconnect();
         exit;
     }
     transitions

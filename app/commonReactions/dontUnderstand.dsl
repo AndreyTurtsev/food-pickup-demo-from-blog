@@ -81,7 +81,6 @@ node dont_understand_hangup
         set $serviceStatus=digression.dont_understand_hangup_params.serviceStatus;
 
         //#forward("12223334455");    //use if you want to transfer a call
-        #disconnect();
         exit;
     }
     transitions

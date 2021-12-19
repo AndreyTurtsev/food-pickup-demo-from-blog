@@ -229,7 +229,6 @@ node success_bye
     do 
     {
         #sayText("Thank you so much for your order. Have a great day. Bye!");
-        #disconnect();
         exit;
     }
 }
@@ -240,7 +239,6 @@ digression bye
     do 
     {
         #sayText("Thanks for your time. Have a great day. Bye!");
-        #disconnect();
         exit;
     }
 }
@@ -250,7 +248,6 @@ node no_dice_bye
     do 
     {
         #sayText("Sorry I couldn't help you today. Have a great day. Bye!");
-        #disconnect();
         exit;
     }
 }

@@ -90,7 +90,6 @@ node repeat_or_ping_hangup
         }
         set $status=digression.repeat_hangup_params.status;
         set $serviceStatus=digression.repeat_hangup_params.serviceStatus;
-        #disconnect();
         exit;
     }
     transitions

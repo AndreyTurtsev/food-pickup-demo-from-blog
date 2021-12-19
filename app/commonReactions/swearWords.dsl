@@ -21,7 +21,6 @@ digression swear_words
         set $callBackDetails = #message.originalText;
 
         //#forward("12223334455");    //use if you want to transfer a call
-        #disconnect();
         exit;
     }
     transitions

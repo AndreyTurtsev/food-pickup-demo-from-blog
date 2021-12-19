@@ -10,7 +10,6 @@ digression answering_machine
     {
         set $serviceStatus=digression.answering_machine.serviceStatus;
         set $status=digression.answering_machine.status;
-        #disconnect();
         exit;
     }
     transitions
