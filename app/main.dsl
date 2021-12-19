@@ -118,8 +118,8 @@ node payment
     }
      transitions 
     {
-        in_store: goto pay_in_store on #messageHasIntent("pay in store");
-        by_card: goto by_card on #messageHasIntent("pay by card");
+        in_store: goto pay_in_store on #messageHasIntent("pay_in_store");
+        by_card: goto by_card on #messageHasIntent("pay_by_card");
     }
 }
 

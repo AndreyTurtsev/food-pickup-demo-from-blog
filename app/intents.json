@@ -1,9 +1,7 @@
 {
   "version": "v2",
-  "intents": 
-  {
-    "yes": 
-    {
+  "intents": {
+    "yes": {
       "includes": [
         "yes",
         "correct",
@@ -14,12 +12,10 @@
         "yep",
         "you got it",
         "I would",
-        "yeah", 
+        "yeah",
         "I would"
       ],
-      "excludes": [
-        "fuck off"
-      ]
+      "excludes": ["fuck off"]
     },
     "no": {
       "includes": [
@@ -32,13 +28,9 @@
         "I would not",
         "I wouldn't"
       ],
-      "excludes": [
-        "no, I want a delivery",
-        "no, I want it delivered"
-      ]
+      "excludes": ["no, I want a delivery", "no, I want it delivered"]
     },
-    "place_order": 
-    {
+    "place_order": {
       "includes": [
         "I want to place an order",
         "I want to pick up some food",
@@ -47,7 +39,7 @@
         "food",
         "I want to place an order for pick up",
         "I'd like to pick up some food",
-        "can I pick up some food", 
+        "can I pick up some food",
         "I'd like to order a (burger)[food], (grilled cheese)[food], (fries)[food] and a (milkshake)[food]",
         "can I get a (burger)[food], (grilled cheese)[food], (fries)[food] and a (milkshake)[food] please",
         "I'd like to order a (burger)[food], (fries)[food] and a (milkshake)[food]",
@@ -55,13 +47,9 @@
         "I want a (burger)[food], (fries)[food] and a (soda)[food]",
         "I would like a (hot dog)[food], (milkshake)[food] and a (soda)[food]"
       ]
-      },
+    },
     "delivery": {
-      "includes": [
-        "do you deliver",
-        "deliver",
-        "delivery"
-      ]
+      "includes": ["do you deliver", "deliver", "delivery"]
     },
     "connect_me": {
       "includes": [
@@ -114,7 +102,7 @@
         "peace"
       ]
     },
-    "pay in store": {
+    "pay_in_store": {
       "includes": [
         "pay in store",
         "I'll pay in store",
@@ -126,25 +114,24 @@
         "in store"
       ]
     },
-    "pay by card": {
-      "includes": [
-        "by card",
-        "now is fine",
-        "I'll pay with my card",
-        "card"
-      ]
+    "pay_by_card": {
+      "includes": ["by card", "now is fine", "I'll pay with my card", "card"]
     }
   },
- 
-  "entities": 
-  {
-    "food": 
-    {
+
+  "entities": {
+    "food": {
       "open_set": true,
       "values": [
         {
           "value": "burger",
-          "synonyms": ["burger", "hamburger", "a burger", "a hamburger", "a tasty hamburger"]
+          "synonyms": [
+            "burger",
+            "hamburger",
+            "a burger",
+            "a hamburger",
+            "a tasty hamburger"
+          ]
         },
         {
           "value": "fries",
@@ -152,15 +139,33 @@
         },
         {
           "value": "milkshake",
-          "synonyms": ["milkshake", "shake", "a milkshake", "strawberry milkshake", "a tasty milkshake"]
+          "synonyms": [
+            "milkshake",
+            "shake",
+            "a milkshake",
+            "strawberry milkshake",
+            "a tasty milkshake"
+          ]
         },
         {
           "value": "hot dog",
-          "synonyms": ["hot dog", "french dog", "a hot dog", "a french dog", "big dog"]
+          "synonyms": [
+            "hot dog",
+            "french dog",
+            "a hot dog",
+            "a french dog",
+            "big dog"
+          ]
         },
         {
           "value": "grilled cheese",
-          "synonyms": ["grilled cheese", "cheese sandwich", "grilled cheese sandwich", "a grilled cheese sandwich", "a cheese sandwich"]
+          "synonyms": [
+            "grilled cheese",
+            "cheese sandwich",
+            "grilled cheese sandwich",
+            "a grilled cheese sandwich",
+            "a cheese sandwich"
+          ]
         },
         {
           "value": "coke",
